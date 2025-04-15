@@ -1,0 +1,11 @@
+input[type="date"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+input[type="date"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
