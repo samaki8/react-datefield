@@ -1,10 +1,12 @@
-
+//src\components\DateField.jsx
 import React from "react";
 import dayjs from 'dayjs';
+
 import './styles/datefield.css';
 import PropTypes from 'prop-types';
 
-function DateField({ label, id, register, errors, validationRules }) {
+function DateField({ label, id, register, errors = {}, validationRules = {} }) {
+
     return (
         <div style={{ marginBottom: "1rem" }}>
             <label htmlFor={id} style={{ display: "block", marginBottom: "0.5rem" }}>
@@ -42,4 +44,5 @@ DateField.defaultProps = {
     errors: {},
     validationRules: {}
 };
+
 export default DateField;

@@ -1,5 +1,9 @@
+//src\components\DateField.test.jsx
+import React from 'react';
 import { render, screen } from '@testing-library/react';
-import './styles/datefield.css';
+import DateField from './DateField';
+
+//import './styles/datefield.css';
 
 test('renders DateField with label', () => {
     render(<DateField label="Test Label" id="test-id" register={() => { }} />);
