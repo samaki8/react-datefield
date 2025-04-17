@@ -1,4 +1,15 @@
 //src\components\DateField.jsx
+
+// DateField.jsx
+
+// This component is a date input field with validation and error handling using React Hook Form.
+// It allows users to select a date and displays an error message if the date is invalid or not provided.
+// The component is styled using CSS and accepts props for label, id, register function, errors, and validation rules.
+// It is designed to be reusable and customizable for different forms in a React application.**/
+//VERSION 1.0.0**
+// **DATE: 2025-04-16**
+//AUTHOR: Samira
+
 import React from "react";
 import dayjs from 'dayjs';
 
