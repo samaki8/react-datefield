@@ -1,0 +1,19 @@
+version: 2
+
+build:
+  os: ubuntu-22.04
+  tools:
+    nodejs: "20"
+
+# Exemple pour générer une doc avec JSDoc
+jobs:
+  post_install:
+    - npm install
+    - npm install -g jsdoc
+
+# Si tu utilises JSDoc pour générer la documentation HTML :
+# Ajoute un job pour lancer la génération, par exemple :
+# pre_build:
+#   - jsdoc -c jsdoc.json
+
+# Si tu utilises une autre commande pour générer la doc, adapte ici.
