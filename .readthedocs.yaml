@@ -4,11 +4,9 @@ build:
   os: ubuntu-22.04
   tools:
     nodejs: "20"
-
-  # Les hooks doivent être sous 'build'
   post_install:
     - npm install
     - npm install -g jsdoc
-
   pre_build:
     - jsdoc -c jsdoc.json
+

@@ -1,5 +1,3 @@
-Voici un exemple de **README.md** professionnel, complet et attractif pour ton composant React `react-datefield`, intégrant des **badges** (Shields), un **snapshot** (capture d’écran), la **présentation de l’équipe**, les **technos**, la **licence**, la **contribution** et toutes les bonnes pratiques recommandées[3][4][5][6].
-
 ---
 
 # 📅 react-datefield
