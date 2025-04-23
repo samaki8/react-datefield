@@ -20,8 +20,7 @@
  */
 
 import React from "react";
-import './styles/datefield.css';
-import './styles/datefield.css'; // Import du fichier CSS pour le style du composant
+import './datefield.css';
 import PropTypes from 'prop-types'; // Pour la validation des props
 
 /**
